@@ -294,5 +294,94 @@ ion-icon {
 
 /* pricing section */
 
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
+.pricing-heading {
+    text-align: center;
+}
 
+.price {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-container > .number {
+    color:#008cff;
+    font-size: 2.5em;
+    align-self: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+.price-container > .amount > .duration, .currency > p {
+    color:#008cff;
+    margin: 0;
+    font-size: 14px;
+}
+
+.price-container > .amount {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.free, .standard, .premium {
+    padding: 1em;
+    border: 0.01em solid #008cff;
+    background: #ffffff;
+    border-radius: 0.5em;
+}
+
+.standard {
+    background: #121f34;
+    color: #ffffff;
+    /* padding-top: 4em; */
+    height: 100%;
+    top: 40px;
+}
+
+.standard > .heading {
+    padding: em;
+}
+
+.free, .premium {
+    height: 90%;
+}
+
+.perks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.perks > .item {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.perks > .item ion-icon {
+    color: rgb(50, 190, 118);
+    font-size: 1.8em;
+}
+
+.perks-btn > button {
+    background: #008cff;
+    padding: 1em 5em 1em 5em;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+}
