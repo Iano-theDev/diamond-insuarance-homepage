@@ -293,6 +293,9 @@ ion-icon {
 }
 
 /* pricing section */
+.pricing {
+    margin-top: 5em;
+}
 
 .pricing-cards {
     display: flex;
@@ -303,6 +306,7 @@ ion-icon {
 
 .pricing-heading {
     text-align: center;
+    padding: 0em 0em 4em 0em;
 }
 
 .price {
@@ -384,4 +388,24 @@ ion-icon {
     border-radius: 5px;
     color: #ffffff;
     border: none;
+}
+
+/* contact section  */
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    background: #121f34;
+    color: #ffffff;
+    height: 30em;
+    padding: 5em 4em 0em 4em;
+    margin-top: 5em;
+}
+
+.content-area, .map-area {
+    width: 50%;
+}
+
+.map-area > img {
+    width: 100%;
 }
