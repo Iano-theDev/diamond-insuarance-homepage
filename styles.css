@@ -391,15 +391,22 @@ ion-icon {
 }
 
 /* contact section  */
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .contact-container {
     display: flex;
     flex-direction: row;
     background: #121f34;
     color: #ffffff;
-    height: 30em;
+    height: 44em;
     padding: 5em 4em 0em 4em;
     margin-top: 5em;
+    z-index: 1;
+
 }
 
 .content-area, .map-area {
@@ -408,5 +415,101 @@ ion-icon {
 
 .map-area > img {
     width: 100%;
+    /* height: 100%; */
 }
+
+/* contact form */
+
+.contact-form {
+    display: flex;
+    background: rgb(255, 255, 255);
+    /* align-items: center; */
+    border: 0.1px solid rgb(191, 191, 191);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50em;
+    align-self: center;
+    z-index: 2;
+    position: relative;
+    bottom: 18em;
+}
+
+.contact-form > .form-container > h3 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+.contact-form > .form-image > img{
+    width: 15em;
+}
+
+.contact-form > .form-container {
+    /* border: 0.1px solid black; */
+    width: 100%;
+    height: auto;
+    padding: 1em;
+}
+
+.contact-form > .form-container > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form > .form-container > form > input, select {
+    width: 100%;
+    height: 4em;
+    border-radius: 0.5em;
+    border: 0.1px solid #959595;
+    outline: none;
+}
+
+.contact-form > .form-container > form > #book-btn > button {
+    height: 4em;
+    width: 100%;
+    border-radius: 0.3em;
+    border: none;
+    color: #ffffff;
+    background: #008cff;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    bottom: 15em;
+    margin-top: -14em;
+    margin-bottom: 1em
+}
+
+.contact-us-button > button {
+    width: 9em;
+    height: 3.6em;
+    color:rgb(255, 255, 255);
+    border: none;
+    background: #008cff;
+    border-radius: 0.3em;
+}
+
+/* footer section  */
+
+.footer {
+    background: #ffffff;
+    display: flex;
+    font-size: 0.8em;
+    gap: 5.5em;
+    justify-content: center;
+}
+
+.footer > .get-in-touch > .git-container {
+    display: flex;
+    align-items: center;
+}
+ 
+.footer > .get-in-touch > .git-container > .icon > ion-icon {
+    font-size: 2em;
+}
+
 
