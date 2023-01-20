@@ -248,6 +248,7 @@ ion-icon {
     justify-content: center;
     align-items: end;
     padding: 2em;
+    margin-bottom: 1em;
 }
 
 .logo > img {
@@ -496,6 +497,7 @@ ion-icon {
 /* footer section  */
 
 .footer {
+    padding-top: 3em;
     background: #ffffff;
     display: flex;
     font-size: 0.8em;
@@ -513,3 +515,190 @@ ion-icon {
 }
 
 
+/* Mobile responsive media queries -----------------------------*/
+
+@media (max-width: 808px) {
+    body {
+        box-sizing: border-box;
+    }
+
+
+    .welcome {
+        display: flex;
+        width: 100%;
+        z-index: none;
+
+    }
+
+    .nav-container > .links {
+        display: none;
+    }
+
+    .member {
+        display: none;
+    }
+
+    .cards-area {
+        display: flex;
+        flex-direction: column;
+        z-index: none;
+        bottom: 0;
+    }
+
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        z-index: none;
+        bottom: 0;
+        gap: 1em;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        padding: 1em;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .quality-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        z-index: none;
+        bottom: 0;
+        gap: 1em;
+        padding: 1em;
+    }
+
+    .review-cards {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        z-index: none;
+        bottom: 0;
+        gap: 1em;
+        padding: 1em;
+        width: 100%;
+    }
+
+    .review-card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        z-index: none;
+        bottom: 0;
+        gap: 1em;
+        padding: 1em;
+    }
+
+    .worked-with{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 1em;
+        justify-content: space-around;
+        align-items: center;
+        display: none;
+    }
+
+    .newsletter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        padding: 1em;
+    }
+
+    .newsletter > h3 > br {
+        display: none;
+    }
+
+    .pricing{
+        margin: 0;
+    }
+    .pricing-cards {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+        width: 100%;
+        text-align: center;
+        padding: 1em;
+        gap: 1em;
+    }
+
+    .free, .standard, .premium {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts {
+        margin: 0;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        margin: 0;
+        z-index: 0;
+        height: auto;
+
+    }
+
+    .content-area, .map-area {
+        width: 100%;
+    }
+
+    .contact-form {
+        z-index: 0;
+        width: 100%;
+        bottom: 0;
+    }
+
+    .contact-form > .form-image > img{
+        display: none;
+    }
+
+    .contact-us {
+        display: flex;
+        flex-direction: column;
+        bottom: 0;
+        margin: 0;
+        padding: 1em;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .footer > .get-in-touch {
+        display: none;
+    }
+
+    .footer > .features, .resources {
+        display: none;
+    }
+    
+
+
+    
+
+
+
+}
